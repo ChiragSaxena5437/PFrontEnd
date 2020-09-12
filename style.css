@@ -1,100 +1,87 @@
-@media (min-width: 800px) and (max-width: 850px) 
-{
-   .navbar:not(.top-nav-collapse)
-    {
-        background: #1C2331!important;
-    }
+*{
+	margin: 0px;
+	padding: 0px;
 }
+body{
 
-.carousel,
-.carousel .carousel-inner,
-.carousel .carousel-inner .active,
-.carousel .carousel-inner .carousel-item,
-.view,
-body,
-html
-{
-	height:100%
+	background-image: url(bg.jpg); 
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: new time roman;
 }
-.navbar
-{
-	background-color:rgba(0,0,0,.2)
+h1{
+	font-size: 40px;
+	color: white;
+	margin-top: 250px;
 }
-.page-footer,
-.top-nav-collapse
-{
-	background-color:#1C2331
+p{
+	font-size: 17px;
+	color: white;
 }
-@media only screen and (max-width:768px)
-{
-	.navbar
-     {
-     	background-color:#1C2331
-     }
+h3{
+	font-size: 25px;
+	color: white;
 }
-
-*
-{
-  box-sizing: border-box;
+.glyphicon-pencil{
+	font-size: 35px;
+	color: white;
+	float: right;
+	margin-top: 20px;
 }
-
-/* Create three columns of equal width */
-.columns {
-  float: left;
-  width: 33.3%;
-  padding: 8px;
+.glyphicon-envelope{
+	font-size: 20px;
+	color: white;
+	float: right;
+	position: absolute;
 }
-
-/* Style the list */
-.price {
-  list-style-type: none;
-  border: 1px solid #eee;
-  margin: 0;
-  padding: 0;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+.col-md-5{
+	margin-top: 30px;
+	box-shadow: -1px 1px 60px 10px black;
+	background: rgba(0,0,0,0.4);
 }
-
-/* Add shadows on hover */
-.price:hover {
-  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+.label{
+    font-weight: normal;
+    margin-top: 20px;
+    color: white;
+    font-size: 19px;
 }
-
-/* Pricing header */
-.price .header {
-  background-color: #111;
-  color: white;
-  font-size: 25px;
+.form-control{
+	background: transparent;
+	border-radius: 0px;
+	border: 0px;
+	border-bottom: 1px solid white;
+	font-size: 18px;
+	margin-top: 15px;
+	height: 40px;
+	color: white;
 }
-
-/* List items */
-.price li {
-  border-bottom: 1px solid #eee;
-  padding: 20px;
-  text-align: center;
+input[type = "checkbox"]{
+	margin-top: 15px;
+    width: 15px;
+    height: 15px;
 }
-
-/* Grey list item */
-.price .grey {
-  background-color: #eee;
-  font-size: 20px;
+small{
+    font-size: 18px;
+    color: white;
 }
-
-/* The "Sign Up" button */
-.button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 10px 25px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 18px;
+input[type="radio"]{
+	margin-top: 22px;
+	margin-left: 30px;
+	marker-start: 50px;
 }
-
-/* Change the width of the three columns to 100%
-(to stack horizontally on small screens) */
-@media only screen and (max-width: 600px) {
-  .columns {
-    width: 100%;
-  }
+option{
+	color: gray;
+}
+.btn-info{
+	margin-top: 20px;
+	font-size: 18px;
+	width: 120px;
+	margin-left: 80px;
+	margin-bottom: 20px;
+}
+.btn-warning{
+	margin-top: 20px;
+	font-size: 18px;
+	width: 120px;
+	margin-bottom: 20px;
 }
