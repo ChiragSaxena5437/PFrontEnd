@@ -28,8 +28,8 @@ h1
 
 #buttonstart:hover
 {
-  background-color: black;
-  text-decoration-color: blue;
+  color: midnightblue !important;
+  border-color: midnightblue !important;
 }
 .page-footer,
 .top-nav-collapse
