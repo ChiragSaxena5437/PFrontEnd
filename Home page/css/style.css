@@ -20,6 +20,17 @@ html
 {
 	background-color:rgba(0,0,0,.2)
 }
+h1
+{
+  font-size: 70px;
+  color: #00000;
+}
+
+#buttonstart:hover
+{
+  background-color: black;
+  text-decoration-color: blue;
+}
 .page-footer,
 .top-nav-collapse
 {
@@ -38,14 +49,12 @@ html
   box-sizing: border-box;
 }
 
-/* Create three columns of equal width */
 .columns {
   float: left;
   width: 33.3%;
   padding: 8px;
 }
 
-/* Style the list */
 .price {
   list-style-type: none;
   border: 1px solid #eee;
@@ -55,32 +64,28 @@ html
   transition: 0.3s;
 }
 
-/* Add shadows on hover */
+
 .price:hover {
   box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
 }
 
-/* Pricing header */
 .price .header {
   background-color: #111;
   color: white;
   font-size: 25px;
 }
 
-/* List items */
 .price li {
   border-bottom: 1px solid #eee;
   padding: 20px;
   text-align: center;
 }
 
-/* Grey list item */
 .price .grey {
-  background-color: #eee;
+  background-color:#A9A9A9;
   font-size: 20px;
 }
 
-/* The "Sign Up" button */
 .button {
   background-color: #4CAF50;
   border: none;
@@ -91,8 +96,6 @@ html
   font-size: 18px;
 }
 
-/* Change the width of the three columns to 100%
-(to stack horizontally on small screens) */
 @media only screen and (max-width: 600px) {
   .columns {
     width: 100%;
