@@ -1,3 +1,3 @@
 # PFrontEnd
-The Repository is up to date with the development of home login and register pages.
-
+The repo is currentely updated with the Teachers page which requires jinja temeplating before 
+final commit in teh PARiKSHA main repo 
